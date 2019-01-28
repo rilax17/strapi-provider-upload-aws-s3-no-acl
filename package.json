@@ -1,6 +1,6 @@
 {
   "name": "strapi-provider-upload-aws-s3-no-acl",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "based on strapi-provider-upload-aws-s3, just removing ACL for non public bucket",
   "main": ".lib/",
   "scripts": {
