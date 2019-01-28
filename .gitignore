@@ -1,0 +1,126 @@
+Skip to content
+ 
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ @rilax17 Sign out
+347
+11,080 1,264 strapi/strapi
+ Code  Issues 116  Pull requests 25  Projects 1  Wiki  Insights
+strapi/packages/strapi-provider-upload-aws-s3/.gitignore
+404afec  on Oct 19, 2018
+@lauriejim lauriejim Prefix providers
+    
+97 lines (77 sloc)  922 Bytes
+############################
+# OS X
+############################
+
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+.Spotlight-V100
+.Trashes
+._*
+
+
+############################
+# Linux
+############################
+
+*~
+
+
+############################
+# Windows
+############################
+
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+
+
+############################
+# Packages
+############################
+
+*.7z
+*.csv
+*.dat
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.seed
+*.so
+*.swo
+*.swp
+*.swn
+*.swm
+*.out
+*.pid
+
+
+############################
+# Logs and databases
+############################
+
+.tmp
+*.log
+*.sql
+*.sqlite
+
+
+############################
+# Misc.
+############################
+
+*#
+.idea
+nbproject
+
+
+############################
+# Node.js
+############################
+
+lib-cov
+lcov.info
+pids
+logs
+results
+build
+node_modules
+.node_history
+package-lock.json
+yarn.lock
+© 2019 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Press h to open a hovercard with more details.

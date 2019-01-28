@@ -1,0 +1,30 @@
+{
+  "name": "strapi-provider-upload-aws-s3-no-acl",
+  "version": "1.0.0",
+  "description": "based on strapi-provider-upload-aws-s3, just removing ACL for non public bucket",
+  "main": ".lib/",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rilax17/strapi-provider-upload-aws-s3-no-acl.git"
+  },
+  "keywords": [
+    "strapi",
+    "aws",
+    "s3",
+    "upload",
+    "no",
+    "acl"
+  ],
+  "author": "Nicolas Brouard",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rilax17/strapi-provider-upload-aws-s3-no-acl/issues"
+  },
+  "homepage": "https://github.com/rilax17/strapi-provider-upload-aws-s3-no-acl#readme",
+  "dependencies": {
+    "aws-sdk": "^2.395.0"
+  }
+}
