@@ -1,13 +1,20 @@
 {
   "name": "strapi-provider-upload-private-aws-s3",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "based on strapi-provider-upload-aws-s3, just removing ACL for non public bucket",
     "directories": {
     "lib": "./lib"
   },
-  "main": ".lib/",
+  "main": "./lib",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "strapi": {
+    "isProvider": true
+  },
+  "engines": {
+    "node": ">= 10.0.0",
+    "npm": ">= 6.0.0"
   },
   "repository": {
     "type": "git",
