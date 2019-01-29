@@ -1,7 +1,10 @@
 {
-  "name": "strapi-provider-upload-aws-s3-no-acl",
+  "name": "strapi-provider-upload-private-aws-s3",
   "version": "1.0.1",
   "description": "based on strapi-provider-upload-aws-s3, just removing ACL for non public bucket",
+    "directories": {
+    "lib": "./lib"
+  },
   "main": ".lib/",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
